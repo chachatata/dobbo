@@ -1,0 +1,7 @@
+1.服务端安装好JDK、Tomcat、Zookeeper
+
+2.安装Dubbo-admin管理后台，即将dubbo-admin-2.6.0.war包放到tomcat安装目录即可
+
+3.启动Provider端，此时自动到zookeeper端注册好服务。并且在dubbo-admin管理后台可以查到到此服务
+
+4.启动consumer端，即可调用到Provider提供的服务
